@@ -1,13 +1,10 @@
 $(document).ready(function() {
+  $("#java").click(function() {
+    $(".definition#java").show();
+    // $(".definition").toggle();
   
-  $("h3").click(function() {
-    $("card").addClass("definition");
+  
+
   });
-
-
-  // $("h3").click(function() {
-  //   $(".definition").show();
-  // });
-
 
 });
